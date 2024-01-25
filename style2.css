@@ -1,0 +1,39 @@
+*{
+    color: #F6F6F6;
+    font-family: 'Gotham';
+}
+
+body{
+    background-color: #000000;
+    padding: 10px;
+}
+
+.main{
+    display: flex;
+    width: 100%;
+    height: 88vh;
+    justify-content: space-between;
+}
+
+.Right-side{
+    max-width: 25%;
+    min-width: 270px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex: 1;
+}
+
+.side1{
+    background-color: #121212;
+    height: 20%;
+    width: 100%;
+    
+    border-radius: 10px;
+    padding: 5%;
+}
+
+.Left-side{
+    background-color: #121212;
+}
